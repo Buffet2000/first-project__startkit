@@ -1,0 +1,166 @@
+@import url(../styles/fonts.css);
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  border: solid 1px red;
+  /* выше установили ограничения для секции */
+}
+
+.header__text {
+    width: 730px
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid 1px red;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.title {
+    border: solid 1px red;
+    font-size: 102px;
+    font-weight: bold;
+    line-height: 96px;
+  }
+
+.heading {
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+.text_no-margin {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+
+.text {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.brief {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #2f80ed;
+    width: 175px;
+    border: solid 1px red;
+}
+
+
+.description {
+    border: solid 1px red;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+
+.spam-accent {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    }
+
+.digits {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    border: solid 1px red;
+    width: 80%; 
+    min-width: 784px
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    border: solid 1px red;
+    font-size: 60px;
+    line-height: 1.15;
+    font-weight: bold;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.section-subtitle {
+    border: solid 1px red;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cell {
+    width: 250px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 60px;
+}
+
+.paragraph {
+    border: solid 1px red;
+    text-align: left;
+  }
+
