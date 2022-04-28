@@ -21,14 +21,13 @@
   border: solid 1px red;
   background-color: #f2f2f2;
   display: flex;
-  /* выше установили ограничения для секции */
+  position:relative;
 }
 
 .header__text {
 width: 730px
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -92,13 +91,13 @@ width: 730px
   font-size: 18px;
   line-height: 1.2;
   margin-bottom: 0;
-  }
+}
 
 .text {
   font-size: 18px;
   line-height: 1.2;
   margin-bottom: 20px;
-  }
+}
 
 .content {
   margin: 0 auto;
@@ -125,16 +124,18 @@ width: 730px
 }
 
 .cards {
+  border: solid 1px red;
   width: 920px;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+  grid-column-gap: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .cards__item {
   border: solid 1px red;
-  width: 240px;
+  /*width: 240px;*/
   display: flex;
   flex-direction: column;
 }
@@ -145,6 +146,12 @@ width: 730px
   height: 160px;
   border-radius: 50%;
   margin: 60px 40px 0 40px;
+  overflow: hidden;
+}
+
+.cards__image img {
+  height: 100%;
+  width: 100%;
 }
 
 .cards__title {
@@ -153,6 +160,7 @@ width: 730px
   line-height: 1.15;
   font-weight: 700;
   margin-top: 43px;
+  text-align: center;
 }
 
 .cards__description {
@@ -162,6 +170,7 @@ width: 730px
   font-weight: normal;
   text-align: center;
   margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .description__brief {
@@ -216,7 +225,7 @@ width: 730px
   line-height: 1.15;
   font-weight: bold;
   margin-bottom: 20px;
-  }
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
