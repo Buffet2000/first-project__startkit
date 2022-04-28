@@ -1,4 +1,8 @@
 @import url(../styles/fonts.css);
+.body {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -15,11 +19,13 @@
   min-height: 600px;
   max-height: 756px;
   border: solid 1px red;
+  background-color: #f2f2f2;
+  display: flex;
   /* выше установили ограничения для секции */
 }
 
 .header__text {
-    width: 730px
+width: 730px
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -28,12 +34,189 @@
   width: 568px;
 }
 
-.table {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border: solid 1px red;
+.header__logo {
+  border: solid 1px red;
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
+
+.header__title {
+  border: solid 1px red;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  width: 730px;
+  margin: auto 64px;
+}
+
+.header__subtitle {
+  border: solid 1px red;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__link {
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  background-image: url('/images/header-image.png');
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  margin-top: 64px;
+  z-index: 1;
+}
+
+.text_no-margin {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 0;
+  }
+
+.text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.content {
+  margin: 0 auto;
+}
+
+.description {
+  border: solid 1px red;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /*min-height: 2px;*/
+  margin: 100px auto 0 auto;
+}
+
+.techniques {
+  border: solid 1px red;
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  width: 920px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards__item {
+  border: solid 1px red;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__image {
+  border: solid 1px red;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 0 40px;
+}
+
+.cards__title {
+  border: solid 1px red;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-top: 43px;
+}
+
+.cards__description {
+  border: solid 1px red;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.description__brief {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #2f80ed;
+  width: 175px;
+  border: solid 1px red;
+  margin: 0;
+}
+
+.description__main-text {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  border: solid 1px red;
+  width: 80%;
+  min-width: 784px;
+}
+
+.description__paragraph {
+  border: solid 1px red;
+  margin: 0;
+}
+
+.span-accent {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid 1px red;
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -43,124 +226,58 @@
   margin-top: 80px;
 }
 
-.title {
-    border: solid 1px red;
-    font-size: 102px;
-    font-weight: bold;
-    line-height: 96px;
-  }
-
-.heading {
-    font-size: 24px;
-    line-height: 1.15;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-.text_no-margin {
-    font-size: 18px;
-    line-height: 1.2;
-    margin-bottom: 0;
-  }
-
-.text {
-    font-size: 18px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-  }
-
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.brief {
-    font-size: 18px;
-    line-height: 1.2;
-    color: #2f80ed;
-    width: 175px;
-    border: solid 1px red;
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-
-.description {
-    border: solid 1px red;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    min-height: 2px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    }
-
-.spam-accent {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
-    }
-
-.digits {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+.iframe {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
-.main-text {
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: normal;
-    border: solid 1px red;
-    width: 80%; 
-    min-width: 784px
+iframe:nth-of-type(2n) {
+  margin-left: 20px;
 }
 
 .margin-bottom {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .section-title {
-    border: solid 1px red;
-    font-size: 60px;
-    line-height: 1.15;
-    font-weight: bold;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    
+  border: solid 1px red;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
 }
 
 .section-subtitle {
-    border: solid 1px red;
-    font-size: 24px;
-    line-height: 35px;
-    font-weight: normal;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    
+  border: solid 1px red;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: normal;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .cell {
-    width: 250px;
-    border: solid 1px red;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-    margin-top: 60px;
+  width: 250px;
+  border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-top: 60px;
 }
 
-.paragraph {
-    border: solid 1px red;
-    text-align: left;
-  }
 
