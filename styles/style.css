@@ -185,6 +185,7 @@ width: 730px
 
 .two-columns__paragraph {
   margin: 0;
+  text-align: justify;
 }
 
 .span-accent {
