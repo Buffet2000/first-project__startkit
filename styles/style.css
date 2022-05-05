@@ -25,7 +25,6 @@
 }
 
 .header {
-  border: solid 1px red;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -40,7 +39,6 @@ width: 730px
 }
 
 .logo__place_header {
-  border: solid 1px red;
   width: 228px;
   height: 32px;
   position: absolute;
@@ -49,7 +47,6 @@ width: 730px
 }
 
 .header__title {
-  border: solid 1px red;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -59,7 +56,6 @@ width: 730px
 }
 
 .header__subtitle {
-  border: solid 1px red;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -106,7 +102,6 @@ width: 730px
 }
 
 .techniques {
-  border: solid 1px red;
   padding-top: 100px;
   width: 80%;
   display: flex;
@@ -117,7 +112,6 @@ width: 730px
 }
 
 .cards {
-  border: solid 1px red;
   width: 920px;
   display: grid;
   grid-template-columns: 240px 240px 240px;
@@ -127,13 +121,11 @@ width: 730px
 }
 
 .cards__item {
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
 }
 
 .item__image {
-  border: solid 1px red;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -147,7 +139,6 @@ width: 730px
 }
 
 .item__title {
-  border: solid 1px red;
   font-size: 24px;
   line-height: 1.15;
   font-weight: 700;
@@ -156,7 +147,6 @@ width: 730px
 }
 
 .item__description {
-  border: solid 1px red;
   font-size: 18px;
   line-height: 23px;
   font-weight: normal;
@@ -166,12 +156,10 @@ width: 730px
 }
 
 .description {
-  border: solid 1px red;
   padding-top: 100px;
 }
 
 .two-columns {
-  border: solid 1px red;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -184,7 +172,6 @@ width: 730px
   line-height: 1.2;
   color: #2f80ed;
   width: 175px;
-  border: solid 1px red;
   margin: 0;
 }
 
@@ -192,13 +179,11 @@ width: 730px
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
-  border: solid 1px red;
   width: 80%;
   min-width: 784px;
 }
 
 .two-columns__paragraph {
-  border: solid 1px red;
   margin: 0;
 }
 
@@ -209,7 +194,6 @@ width: 730px
 }
 
 .digits {
-  border: solid 1px red;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
@@ -224,13 +208,11 @@ width: 730px
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: solid 1px red;
   z-index: 2;
 }
 
 .table__cell {
   width: 250px;
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -240,7 +222,6 @@ width: 730px
 }
 
 .cell__heading {
-  border: solid 1px red;
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
@@ -255,7 +236,6 @@ width: 730px
 }
 
 .cell__text {
-  border: solid 1px red;
   font-size: 18px;
   line-height: 1.2;
   margin-top: 20px;
@@ -263,7 +243,6 @@ width: 730px
 }
 
 .video {
-  border: solid 1px red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -281,13 +260,11 @@ iframe:nth-of-type(2n) {
 }
 
 .oakley {
-  border: solid 1px red;
   background-color: #f2f2f2;
   padding-top: 160px;
 }
 
 .feynman {
-  border: solid 1px red;
   height: 890px;
   display: flex;
   flex-direction: column;
@@ -300,7 +277,6 @@ iframe:nth-of-type(2n) {
 }
 
 .feynman__title {
-  border: solid 1px red;
   font-size: 120px;
   line-height: 1.15;
   font-weight: 700;
@@ -314,7 +290,6 @@ iframe:nth-of-type(2n) {
 }
 
 .feynman__subtitle {
-  border: solid 1px red;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -326,7 +301,6 @@ iframe:nth-of-type(2n) {
 }
 
 .feynman__link {
-  border: solid 1px red;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -343,7 +317,6 @@ iframe:nth-of-type(2n) {
 }
 
 .feynman__image {
-  border: solid 1px red;
   width: 867px;
   height: 637px;
   background-image: url(../images/feynman.png);
@@ -354,7 +327,6 @@ iframe:nth-of-type(2n) {
 }
 
 .khan {
-  border: solid 1px red;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -362,14 +334,12 @@ iframe:nth-of-type(2n) {
 }
 
 .container {
-  border: solid 1px red;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .khan__author {
-  border: solid 1px red;
   font-size: 30px;
   line-height: 42px;
   font-weight: normal;
@@ -378,7 +348,6 @@ iframe:nth-of-type(2n) {
 }
 
 .khan__title {
-  border: solid 1px red;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 700;
@@ -386,7 +355,6 @@ iframe:nth-of-type(2n) {
 }
 
 .khan__quote {
-  border: solid 1px red;
   width: 790px;
   margin-top: 50px;
   font-size: 24px;
@@ -395,7 +363,6 @@ iframe:nth-of-type(2n) {
 }
 
 .quote-author {
-  border: solid 1px red;
   margin-top: 36px;
   font-size: 24px;
   line-height: 1.15;
@@ -403,7 +370,6 @@ iframe:nth-of-type(2n) {
 }
 
 .quote-author-subline {
-  border: solid 1px red;
   margin-top: 10px;
   font-size: 24px;
   line-height: 1.15;
@@ -411,21 +377,18 @@ iframe:nth-of-type(2n) {
 }
 
 .book-container {
-  border: solid 1px red;
   display: flex;
   flex-direction: row;
   margin-top: 68px;
 }
 
 .book-pic {
-  border: solid 1px red;
   width: 620px;
   height: 608px;
   background-image: url(../images/khan-book.jpg);
 }
 
 .buy-link {
-  border: solid 1px red;
   color: #2f80ed;
   text-decoration: none;
   text-align: left;
@@ -445,7 +408,6 @@ iframe:nth-of-type(2n) {
 }
 
 .kaufman {
-  border: solid 1px red;
   background-color: #1f1f1f;
   display: flex;
   flex-wrap: wrap;
@@ -459,7 +421,6 @@ iframe:nth-of-type(2n) {
 }
 
 .section-title {
-  border: solid 1px red;
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
@@ -475,7 +436,6 @@ iframe:nth-of-type(2n) {
 }
 
 .section-subtitle {
-  border: solid 1px red;
   font-size: 24px;
   line-height: 35px;
   font-weight: normal;
@@ -498,7 +458,6 @@ iframe:nth-of-type(2n) {
 }
 
 .triangle {
-  border: solid 1px red;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: contain;
   width: 877px;
@@ -511,7 +470,6 @@ iframe:nth-of-type(2n) {
 }
 
 .resources {
-  border: solid 1px red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -522,7 +480,6 @@ iframe:nth-of-type(2n) {
 }
 
 .logo-zone {
-  border: solid 1px red;
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -530,7 +487,6 @@ iframe:nth-of-type(2n) {
 }
 
 .logo {
-  border: solid 1px red;
   width: 270px;
   height: 38px;
   display: flex;
@@ -544,7 +500,6 @@ iframe:nth-of-type(2n) {
 }
 
 .footer {
-  border: solid 1px red;
   width: 100%;
   min-height: 350px;
   background-color: #1f1f1f;
@@ -556,7 +511,6 @@ iframe:nth-of-type(2n) {
 }
 
 .columns {
-  border: solid 1px red;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -574,18 +528,15 @@ iframe:nth-of-type(2n) {
  }
 
 .footer__column_copyright {
-  border: solid 1px red;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column_info {
-  border: solid 1px red;
 }
 
 .footer__column_social {
-  border: solid 1px red;
 }
 
 .logo__place_footer {
@@ -594,7 +545,6 @@ iframe:nth-of-type(2n) {
 }
 
 .author {
-  border: solid 1px red;
   color: white;
   font-size: 18px;
   line-height: 25px;
