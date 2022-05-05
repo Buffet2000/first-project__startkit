@@ -60,6 +60,7 @@ width: 730px
   font-weight: normal;
   line-height: 25px;
   width: 388px;
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -185,7 +186,7 @@ width: 730px
 
 .two-columns__paragraph {
   margin: 0;
-  text-align: justify;
+  text-align: justify; /*решил выровнить текст по ширине :Р*/
 }
 
 .span-accent {
@@ -250,13 +251,13 @@ width: 730px
   padding-top: 100px;
 }
 
-.iframe {
+.video__iframe {
   margin-top: 50px;
   position: relative;
   bottom: -60px;
 }
 
-iframe:nth-of-type(2n) {
+video__iframe:nth-of-type(2n) {
   margin-left: 20px;
 }
 
@@ -274,7 +275,6 @@ iframe:nth-of-type(2n) {
   position: relative;
   z-index: 1;
   padding-top: 100px;
-  /*overflow: hidden;*/
 }
 
 .feynman__title {
@@ -345,7 +345,6 @@ iframe:nth-of-type(2n) {
   line-height: 42px;
   font-weight: normal;
   margin: 0;
-
 }
 
 .khan__title {
@@ -458,7 +457,7 @@ iframe:nth-of-type(2n) {
   z-index: 2;
 }
 
-.triangle {
+.kaufman-triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-size: contain;
   width: 877px;
@@ -585,3 +584,4 @@ iframe:nth-of-type(2n) {
 .column-link:nth-of-type(3n) {
   margin-bottom: 16px;
 }
+

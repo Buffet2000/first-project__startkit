@@ -1,0 +1,11 @@
+.author {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  display: flex;
+  position: absolute;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  bottom: 0;
+}

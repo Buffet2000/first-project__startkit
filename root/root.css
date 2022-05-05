@@ -1,3 +1,14 @@
-.root, html {
-    font-family: 'Inter', Arial, sans-serif;
+@import url(../styles/fonts.css);
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.root {
+  font-family: 'Inter', 'Arial', sans-serif;
+}
